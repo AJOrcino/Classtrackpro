@@ -1,0 +1,68 @@
+/* Modal Background */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+  
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal Box */
+.modal-box {
+  background-color: white;
+  padding: 30px 20px;
+  border-radius: 10px;
+  width: 310px;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0.2, 0.2, 0.2, 0.2);
+  position: relative;
+}
+
+/* Back Arrow */
+.back-arrow {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+/* Check Icon */
+.success-icon {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 45px;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Text */
+.text {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+/* Button */
+.continue-btn {
+  background-color: #1d3557;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.continue-btn:hover {
+  background-color: #16324d;
+}
