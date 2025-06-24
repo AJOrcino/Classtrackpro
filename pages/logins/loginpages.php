@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link for CSS-->
     <rel="stylesheet" href="Styes/loginpage.css">
     <title>Login Page</title>
 </head>
