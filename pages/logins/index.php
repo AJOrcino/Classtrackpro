@@ -1,13 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Link for CSS-->
-    <rel="stylesheet" href="Styes/loginpage.css">
-    <title>Login Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In</title>
+    <link rel="stylesheet" href="/Styles/index.css" />
 </head>
+
 <body>
-    <!--Input code for login page --->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <img src="/Assets/logo.png" class="logo" />
+            <span class="navbar-title">ClassTrack Pro</span>
+        </div>
+    </nav>
+
+    <div class="container">
+        <form class="form-box">
+            <h2>ClassTrack Pro</h2>
+            <p class="subtitle">Fill out the Form to Login</p>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Email Here" required />
+
+            <label for="password">Password</label>
+            <div class="password-box">
+                <input type="password" id="password" placeholder="********" required />
+
+            </div>
+
+            <div class="options">
+                <a href="#" class="forgot">Forget password?</a>
+            </div>
+
+            <button type="submit" class="sign-in-btn">SIGN IN</button>
+
+            <p class="signup">Didn't have an account? <a href="createacc.php">Sign Up</a></p>
+        </form>
+    </div>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+
+        function togglePassword() {
+            const passwordInput = document.getElementById("password");
+            if (passwordInput.type === "password") {
+                passwordInput.type = "text";
+            } else {
+                passwordInput.type = "password";
+            }
+        }
+    </script>
 </body>
+
 </html>
