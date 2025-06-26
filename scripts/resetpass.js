@@ -3,7 +3,7 @@ function attemptClose() {
   window.location.href = "/pages/logins/index.php";
 }
 
-function goHome(event) {
+function home(event) {
   event.preventDefault(); 
 
   const newPass = document.getElementById("new-password").value.trim();

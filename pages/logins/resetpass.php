@@ -28,7 +28,7 @@
             <label for="confirm-password">Confirm Password</label>
             <input type="password" id="confirm-password" placeholder="************" required />
 
-            <button type="submit" class="sign-up-btn" onclick="goHome()">DONE</button>
+            <button type="submit" class="sign-up-btn" onclick="home()">DONE</button>
         </form>
     </div>
     <script src="/scripts/resetpass.js"></script>
