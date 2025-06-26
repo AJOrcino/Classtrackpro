@@ -33,7 +33,7 @@
             </div>
 
             <div class="options">
-                <a href="#" class="forgot">Forget password?</a>
+                <a href="resetpass.php" class="forgot">Forget password?</a>
             </div>
 
             <button type="submit" class="sign-in-btn">SIGN IN</button>
@@ -44,16 +44,7 @@
 
     </div>
 
-    <script>
-        function togglePassword() {
-            const passwordInput = document.getElementById("password");
-            if (passwordInput.type === "password") {
-                passwordInput.type = "text";
-            } else {
-                passwordInput.type = "password";
-            }
-        }
-    </script>
+    <script src="/scripts/togglepassword.js"></script>
 </body>
 
 </html>

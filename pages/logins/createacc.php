@@ -13,7 +13,6 @@
 
 <body>
 
-    <!-- Navbar -->
     <nav class="navbar">
         <div class="navbar-container">
             <img src="/Assets/logo.png" class="logo" />
@@ -21,7 +20,6 @@
         </div>
     </nav>
 
-    <!-- Form -->
     <div class="container">
         <form class="form-box" id="createForm">
             <h2>ClassTrack Pro</h2>
@@ -51,11 +49,10 @@
         </form>
 
         <?php include '../../components/buttons/arrowupbutton.php'; ?>
-        
+
     </div>
     <?php include '../../components/modal/successfullog.php'; ?>
 
-    <!-- JavaScript to show modal -->
     <script src="/scripts/successfullog.js"></script>
 
 </body>
