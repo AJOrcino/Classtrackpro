@@ -145,3 +145,30 @@ input[type="password"] {
   color: #1bd421;
   text-decoration: none;
 }
+
+.form-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 25px;
+  justify-content: center;
+}
+
+.lock-icon {
+  font-size: 40px;
+  color: #1bd421; /* green na kulay ng icon */
+}
+
+.form-title-group h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #ffffff;
+  text-align: left;
+}
+
+.form-title-group .subtitle {
+  margin: 2px 0 0;
+  font-size: 0.9rem;
+  color: #cccccc;
+  text-align: left;
+}
