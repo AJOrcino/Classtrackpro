@@ -4,6 +4,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   form.addEventListener("submit", function (e) {
     e.preventDefault(); 
-    modal.style.display = "flex"; // show modal
+    modal.style.display = "flex"; 
   });
 });

@@ -25,7 +25,4 @@ document.getElementById("resetForm").addEventListener("submit", function (e) {
     );
     return;
   }
-
-  // Show modal if all validations pass
-  document.getElementById("successModal").style.display = "flex";
 });
