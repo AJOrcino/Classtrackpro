@@ -176,7 +176,7 @@ input[type="password"] {
 .success-banner {
   display: none; 
   position: fixed;
-  top: 20px;
+  top: 65px;
   right: 20px;
   background-color: #1bd421;
   color: #ffffff;
