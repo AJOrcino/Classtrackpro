@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     let isScrolling;
 
-    // Show/hide the button on load and scroll
     checkScrollPosition();
 
     window.addEventListener('scroll', function () {
@@ -26,9 +25,8 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 
-    // Custom smooth scroll to top using requestAnimationFrame
     arrowUpBtn.addEventListener('click', function () {
-        const scrollSpeed = 20; // Lower = slower scroll (try 10–20)
+        const scrollSpeed = 20; 
 
         function scrollStep() {
             const currentScroll = window.scrollY;

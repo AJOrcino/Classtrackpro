@@ -91,6 +91,7 @@
 
     select {
       appearance: none;
+      cursor: pointer;
     }
 
     .password-box {

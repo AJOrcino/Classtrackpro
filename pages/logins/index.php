@@ -11,6 +11,18 @@
 </head>
 
 <body>
+  <!-- ✅ Formal Success Banner -->
+  <div id="login-success-banner" class="success-banner">
+    <div class="icon-box">
+      <i class="fas fa-check-circle"></i>
+    </div>
+    <div class="text-box">
+      <strong>Login Successful</strong>
+      <p>You’ve successfully logged in to ClassTrack Pro.</p>
+    </div>
+  </div>
+
+
   <nav class="navbar">
     <div class="navbar-container">
       <img src="/Assets/logo.png" class="logo" />
@@ -19,7 +31,7 @@
   </nav>
 
   <div class="container">
-    <form class="form-box">
+    <form class="form-box" onsubmit="validateLogin(event)">
 
       <!-- 🔒 Lock Icon + Title + Subtitle -->
       <div class="form-header">
@@ -51,6 +63,7 @@
   </div>
 
   <script src="/scripts/togglepassword.js"></script>
+  <script src="/scripts/loginbanner.js"></script>
 </body>
 
 </html>

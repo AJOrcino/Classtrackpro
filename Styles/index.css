@@ -8,7 +8,7 @@ body {
   align-items: center;
   height: 120vh;
 }
-/* BODY stays the same – nice and centered already */
+
 .navbar {
   width: 100%;
   background-color: #2e2e2f;
@@ -47,7 +47,7 @@ body {
   border-radius: 12px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
   width: 100%;
-  max-width: 400px; /* tighter width for a login box */
+  max-width: 400px; 
   box-sizing: border-box;
   margin-bottom: 20px;
 }
@@ -104,11 +104,11 @@ input[type="password"] {
   color: #aaa;
 }
 
-.options a{
+.options a {
   display: flex;
   justify-content: flex-end;
   margin-top: 5px;
-  color:#1bd421;
+  color: #1bd421;
 }
 
 .forgot {
@@ -156,7 +156,7 @@ input[type="password"] {
 
 .lock-icon {
   font-size: 40px;
-  color: #1bd421; /* green na kulay ng icon */
+  color: #1bd421; 
 }
 
 .form-title-group h2 {
@@ -171,4 +171,63 @@ input[type="password"] {
   font-size: 0.9rem;
   color: #cccccc;
   text-align: left;
+}
+
+.success-banner {
+  display: none; 
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #1bd421;
+  color: #ffffff;
+  padding: 16px 24px;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  z-index: 999;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 320px;
+  align-items: center;
+  gap: 16px;
+  border-left: 6px solid #0e9f17;
+}
+
+.success-banner.visible {
+  display: flex;
+  animation: slideIn 0.4s ease, fadeOut 0.5s ease 3s forwards;
+}
+
+.success-banner .icon-box i {
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.success-banner .text-box strong {
+  font-size: 16px;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.success-banner .text-box p {
+  font-size: 13px;
+  margin: 0;
+  color: #f0f0f0;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(50%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+    transform: translateX(50%);
+    pointer-events: none;
+  }
 }
