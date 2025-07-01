@@ -39,8 +39,9 @@
             <label for="role">Select Role</label>
             <select id="role" required>
                 <option value="" disabled selected>Select your role</option>
-                <option value="student">Student</option>
-                <option value="teacher">Teacher</option>
+                <option value="student">President</option>
+                <option value="student">Vice President</option>
+                <option value="student">Secretary</option>
             </select>
 
             <button type="submit" class="sign-in-btn">SIGN UP</button>

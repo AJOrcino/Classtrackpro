@@ -11,7 +11,6 @@
 </head>
 
 <body>
-  <!-- ✅ Formal Success Banner -->
   <div id="login-success-banner" class="success-banner">
     <div class="icon-box">
       <i class="fas fa-check-circle"></i>
@@ -33,7 +32,6 @@
   <div class="container">
     <form class="form-box" onsubmit="validateLogin(event)">
 
-      <!-- 🔒 Lock Icon + Title + Subtitle -->
       <div class="form-header">
         <i class="fas fa-lock lock-icon"></i>
         <div class="form-title-group">
